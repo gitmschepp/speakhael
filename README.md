@@ -14,3 +14,9 @@ Original purpose:
     Since in conversations there are several interactive statements involved, 
     the original espeak command with configurations symbols should haven been repeated every time.
     Now the time to write and have the computer speak out is much shorter.
+
+
+Prerequisites to running the executable:
+    sudo apt-get install espeak
+
+To compile just install haskell-platform and run: ghc speakhael.hs -o <yourexecutable>
